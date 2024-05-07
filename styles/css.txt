@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+.en-tête{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 15px;
+}
+header{
+    display: flex;
+    margin-left: 1px solid #7451eb;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+nav{
+    margin-left: 375px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+nav .action{
+    color: #7451EB;
+    font-size: 16px;
+    font-weight: bold;
+}
+.boutton{
+    width: 143px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: end;
+    align-items: center;
+    background-color: #7451EB;
+    color: #ffff;
+    border-color: #7451EB;
+}
+.btn-log{
+    margin-left: 400px;
+
+}
+/*section babbière */
+h2{
+    font-weight: bolder;
+}
+.bannier{
+    display: flex;
+}
+
+.images_description{
+   margin-top: 10px;
+}
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    width: 215.19x;
+    height: 337px;
+    margin-left: -460px;
+    margin-top: 195px;
+   
+}
+.card{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.card-title{
+    color: #7451EB;
+    font-weight: bold;
+}
+.pourcentage{
+    font-weight: bolder;
+    color: #7451EB;
+}
+.Titre{
+    position:absolute;
+    top: 20vh;
+    left:109vh;
+    color: #7451EB;
+    font-weight: bolder;
+}
+.card .right{
+    margin-right: 200px !important;
+}
+/*section ALumni*/
+.alumni, h2{
+    margin-top: 20px;
+    color: #7451EB;
+}
+.card-img-top{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px !important;
+    margin: auto;
+    box-shadow: #7451EB;
+}
+.Nom{
+    text-align: center;
+
+}
+.Serie{
+    text-align: center;
+}
+.btn{
+    width: 209px;
+    height: 59px;
+    text-align: center;
+    margin: auto;
+    background-color: #7451EB;
+
+}
+/*evenement*/
+.evenement{
+    margin-top: 20px;
+}
+.card1 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/ack1.svg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  .card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-content {
+   margin-bottom: 0px;
+    padding: 20px;
+    color: #fff;
+
+  }
+  h3 {
+    margin-top: 80%;
+    margin-bottom: 0px;
+  }
+  .card-content p{
+    margin-top: 10px;
+    color: lightslategray;
+  }
+  .author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: lightslategray;
+  }
+  .card2 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/sport.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  .card3 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/ev3.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  .card4 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/ev4.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  .card5 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/ev5.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  .card6 {
+    width: 448px;
+    height: 521px;
+    border-radius: 10px;
+    background-image: url('../images/ev6.png');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 25px;
+  }
+  /*citation*/
+.citation{
+    margin-top: 20px;
+}
+.container-citation{
+    display: flex;
+    text-align: end;
+    align-items: center;
+
+}
+.container-citation h5, h6{
+    text-align: center;
+    margin-left: -90px;
+}
+.text-citation{
+    flex: 1;
+}
+.image-author{
+    flex: 1;
+}
+/*poition des images sur la section citation*/
+.container-citation.position-image1{
+    margin-left: -90px !important;
+}
+
+
+/*section galerie*/
+.galerie h2{
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.photos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.image-galerie{
+    width: 448px;
+    height: 400px;
+    flex-shrink: 0;
+}
+/*section Pour les partenaires*/
+.les-partenaires{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-partenaire{
+    width: 301px;
+    height: 301px;
+    flex-shrink: 0;
+}
+/*footer*/
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partenaire-foot {
+    flex: 1;
+}
+
+.newsletter {
+    flex: 1;
+    text-align: left;
+}
+
+.newsletter .form {
+    margin-bottom: 10px;
+}
+
+.abonner {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.abonner:hover {
+    background-color: #0056b3;
+}
