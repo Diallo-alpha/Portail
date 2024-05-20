@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +22,12 @@ header {
 .logo img {
     height: 50px;
 }
+.action {
+    font-weight: bold; 
+    color: #7451EB !important; 
+    border-bottom: 2px solid #7451EB;
 
+}
 .nav-menu ul {
     display: flex;
     list-style: none;
@@ -96,11 +102,11 @@ header {
 }
 
 .contact-button:hover {
-    background-color: #218838;
+    background-color: #000;
 }
 
 .signup-button:hover {
-    background-color: #138496;
+    background-color: #000;
 }
 /*SECTION À PROPOS*/
 .à-propos{
@@ -428,6 +434,17 @@ footer {
 
 .footer-bottom .social-icons img {
     width: 24px; 
+}
+.social-icons{
+    text-decoration: none;
+}
+.couleur-icon{
+    color: #7451EB;
+    font-size: 15px;
+}
+.clor-test{
+    padding: 10px;
+    color: #fff;
 }
 /*responsive tablette */
 @media screen and (max-width: 768px) {
